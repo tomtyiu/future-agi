@@ -5,7 +5,7 @@ description = "Core backend for FutureAGI platform"
 readme = "README.md"
 requires-python = ">=3.11"
 dependencies = [
-    "django==5.1.8",
+    "django==5.2.17",
     "djangorestframework",
     "djangorestframework-simplejwt",
     "granian[uvloop,reload]",  # Rust ASGI server
@@ -35,7 +35,7 @@ dependencies = [
     "jsonpath-ng",
     "nltk",
     "retrying",
-    "litellm==1.81.11",  # Latest with pydantic compatibility fixes
+    "litellm==1.84.0",  # Latest with pydantic compatibility fixes
     "django-filter",
     "pyjwt",
     "qdrant-client",
