@@ -6,7 +6,7 @@ aiofiles==25.1.0
     # via livekit
 aiohappyeyeballs==2.6.1
     # via aiohttp
-aiohttp==3.12.13
+aiohttp==3.14.3
     # via
     #   fsspec
     #   langchain-community
@@ -127,7 +127,7 @@ charset-normalizer==3.4.2
     #   requests
 chevron==0.14.0
     # via core-backend (pyproject.toml)
-chromadb==1.0.13
+chromadb==1.5.9
     # via core-backend (pyproject.toml)
 click==8.2.1
     # via
@@ -164,7 +164,7 @@ confection==0.1.5
     #   weasel
 cron-descriptor==1.4.5
     # via django-celery-beat
-cryptography==43.0.3
+cryptography==50.0.0
     # via
     #   authlib
     #   pdfminer-six
@@ -207,7 +207,7 @@ distro==1.9.0
     #   openai
     #   posthog
     #   retell-sdk
-django==5.1.8
+django==5.2.17
     # via
     #   core-backend (pyproject.toml)
     #   channels
@@ -254,7 +254,7 @@ django-stubs-ext==6.0.0
     # via django-stubs
 django-timezone-field==7.1
     # via django-celery-beat
-djangorestframework==3.16.0
+djangorestframework==3.17.2
     # via
     #   core-backend (pyproject.toml)
     #   django-socio-grpc
@@ -400,7 +400,7 @@ h11==0.16.0
     # via
     #   httpcore
     #   uvicorn
-h2==4.2.0
+h2==4.4.1
     # via httpx
 hdbscan==0.8.40
     # via core-backend (pyproject.toml)
@@ -476,7 +476,7 @@ joblib==1.5.1
     #   librosa
     #   nltk
     #   scikit-learn
-json-repair==0.47.4
+json-repair==0.63.4
     # via core-backend (pyproject.toml)
 jsonpatch==1.33
     # via langchain-core
@@ -496,7 +496,7 @@ kombu==5.5.4
     # via celery
 kubernetes==33.1.0
     # via chromadb
-langchain==0.3.26
+langchain==1.4.0
     # via
     #   core-backend (pyproject.toml)
     #   langchain-community
@@ -513,7 +513,7 @@ langchain-text-splitters==0.3.8
     #   langchain
 langfuse==3.1.3
     # via core-backend (pyproject.toml)
-langsmith==0.4.3
+langsmith==0.12.1
     # via
     #   langchain
     #   langchain-community
@@ -528,7 +528,7 @@ librosa==0.11.0
     # via core-backend (pyproject.toml)
 lightning-utilities==0.15.2
     # via torchmetrics
-litellm==1.81.11
+litellm==1.84.0
     # via
     #   core-backend (pyproject.toml)
     #   traceai-litellm
@@ -556,7 +556,7 @@ markupsafe==3.0.2
     #   mako
 marshmallow==3.26.1
     # via dataclasses-json
-mcp==1.26.0
+mcp==1.28.1
     # via core-backend (pyproject.toml)
 mdurl==0.1.2
     # via markdown-it-py
@@ -568,7 +568,7 @@ mmh3==5.1.0
     # via chromadb
 mpmath==1.3.0
     # via sympy
-msgpack==1.1.1
+msgpack==1.2.2
     # via
     #   channels-rabbitmq
     #   librosa
@@ -590,7 +590,7 @@ networkx==3.6.1
     # via torch
 nexus-rpc==1.2.0
     # via temporalio
-nltk==3.8.1
+nltk==3.10.3
     # via
     #   core-backend (pyproject.toml)
     #   rouge-score
@@ -879,7 +879,7 @@ pdfplumber==0.11.7
     # via core-backend (pyproject.toml)
 phonenumbers==9.0.26
     # via presidio-analyzer
-pillow==11.2.1
+pillow==12.3.0
     # via
     #   core-backend (pyproject.toml)
     #   pdfplumber
@@ -952,7 +952,7 @@ psycopg-pool==3.2.6
     # via psycopg
 pyarrow==20.0.0
     # via datasets
-pyasn1==0.6.1
+pyasn1==0.6.4
     # via
     #   pyasn1-modules
     #   python-jose
@@ -996,7 +996,7 @@ pydantic-core==2.41.5
     # via
     #   elevenlabs
     #   pydantic
-pydantic-settings==2.10.1
+pydantic-settings==2.15.0
     # via
     #   langchain-community
     #   mcp
@@ -1004,7 +1004,7 @@ pydub==0.25.1
     # via core-backend (pyproject.toml)
 pygments==2.19.2
     # via rich
-pyjwt==2.12.1
+pyjwt==2.13.0
     # via
     #   core-backend (pyproject.toml)
     #   djangorestframework-simplejwt
@@ -1016,7 +1016,7 @@ pyopenssl==24.2.1
     #   webauthn
 pyotp==2.9.0
     # via core-backend (pyproject.toml)
-pypdf==5.6.1
+pypdf==6.16.1
     # via core-backend (pyproject.toml)
 pypdfium2==5.6.0
     # via pdfplumber
@@ -1166,7 +1166,7 @@ scipy==1.16.0
     #   scikit-learn
 sentry-sdk==2.32.0
     # via core-backend (pyproject.toml)
-setuptools==80.9.0
+setuptools==83.0.0
     # via
     #   grpcio-tools
     #   lightning-utilities
@@ -1199,7 +1199,7 @@ soundfile==0.13.1
     # via
     #   core-backend (pyproject.toml)
     #   librosa
-soupsieve==2.8.3
+soupsieve==2.9.2
     # via beautifulsoup4
 soxr==0.5.0.post1
     # via librosa
@@ -1217,7 +1217,7 @@ sqlalchemy==2.0.41
     #   langchain
     #   langchain-community
     #   optuna
-sqlparse==0.5.3
+sqlparse==0.6.0
     # via
     #   django
     #   django-debug-toolbar
@@ -1266,7 +1266,7 @@ tokenizers==0.21.2
     #   chromadb
     #   litellm
     #   transformers
-torch==2.10.0
+torch==2.14.0
     # via
     #   core-backend (pyproject.toml)
     #   torch-fidelity
@@ -1280,7 +1280,7 @@ torchvision==0.25.0
     # via
     #   core-backend (pyproject.toml)
     #   torch-fidelity
-tornado==6.5.1
+tornado==6.5.8
     # via flower
 tqdm==4.67.1
     # via
@@ -1306,7 +1306,7 @@ traceai-openai==0.1.9
     # via core-backend (pyproject.toml)
 traceai-vertexai==0.1.9
     # via core-backend (pyproject.toml)
-transformers==4.53.0
+transformers==5.10.1
     # via core-backend (pyproject.toml)
 triton==3.6.0
     # via torch
