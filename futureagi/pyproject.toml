@@ -35,7 +35,7 @@ dependencies = [
     "jsonpath-ng",
     "nltk",
     "retrying",
-    "litellm==1.81.11",  # Latest with pydantic compatibility fixes
+    "litellm==1.84.0",  # Latest with pydantic compatibility fixes
     "django-filter",
     "pyjwt",
     "qdrant-client",

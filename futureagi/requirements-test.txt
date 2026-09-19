@@ -18,7 +18,7 @@ annotated-types==0.7.0
     # via pydantic
 anthropic==0.56.0
     # via core-backend (pyproject.toml)
-anyio==4.9.0
+anyio==4.14.2
     # via
     #   anthropic
     #   google-genai
@@ -125,7 +125,7 @@ coloredlogs==15.0.1
     #   onnxruntime
 cron-descriptor==1.4.5
     # via django-celery-beat
-cryptography==43.0.3
+cryptography==50.0.0
     # via
     #   authlib
     #   pdfminer-six
@@ -432,7 +432,7 @@ levenshtein==0.27.1
     # via python-levenshtein
 librosa==0.11.0
     # via core-backend (pyproject.toml)
-litellm==1.68.1
+litellm==1.84.0
     # via
     #   core-backend (pyproject.toml)
 llvmlite==0.44.0
@@ -473,7 +473,7 @@ mypy-extensions==1.1.0
     # via typing-inspect
 newrelic==10.14.0
     # via core-backend (pyproject.toml)
-nltk==3.8.1
+nltk==3.10.3
     # via
     #   core-backend (pyproject.toml)
     #   rouge-score
@@ -715,7 +715,7 @@ pymongo==4.13.2
     # via core-backend (pyproject.toml)
 pyopenssl==24.2.1
     # via pysaml2
-pypdf==5.7.0
+pypdf==6.16.1
     # via core-backend (pyproject.toml)
 pypika==0.48.9
     # via chromadb
@@ -907,7 +907,7 @@ tokenizers==0.21.2
     #   chromadb
     #   litellm
     #   transformers
-tornado==6.5.1
+tornado==6.5.8
     # via flower
 tqdm==4.67.1
     # via
